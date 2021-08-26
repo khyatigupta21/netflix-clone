@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header class="header-style">
+      <div class="header-top">
+        <img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix " />
+        <select class="lang-selector" placeholder="lang-selector">
+          <option
+            selected=""
+            lang="en"
+            value="/sg/"
+            data-language="en"
+            data-country="SG"
+          >
+            English
+          </option>
+          <option
+            lang="zh"
+            value="/sg-zh/"
+            data-language="zh"
+            data-country="SG"
+          >
+            中文
+          </option>
+        </select>
+        <a href="./login.html" class="signin-btn">Sign In</a>
+      </div>
+      <div class="netflix-content">
+        <div class="netflix-content">
+          <h1>Unlimited films,TV, Programmes and more.</h1>
+          <h2>Watch anywhere. Cancel at any time.</h2>
+          <h3>
+            Ready to watch? Enter you email to create or restart your
+            membership.
+          </h3>
+          <div class="netflix-inputplacement border-lable-flt">
+            <input
+              type="text"
+              name="email"
+              class="netflix-textfield"
+              id="netflix-place-textfield"
+            /><label for="email-address" class="netflix-inputlabel"
+              >Email address</label
+            >
+            <button
+              class="btn netflix-btn-getstarted"
+              type="submit"
+              autocomplete="off"
+              tabindex="0"
+              role="link"
+            >
+              Get Started &#62;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="our-story-cards">
+        <div class="our-story-cards-container">
+          <div class="our-story-card-text">
+            <h1 class="our-story-card-title">Enjoy on your TV.</h1>
+            <h2 class="our-story-card-subtitle">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </h2>
+          </div>
+          <div class="our-story-card-image-container">
+            <div class="our-story-card-animation-container">
+              <img src="./img/tv.png" class="our-story-card-image" alt="" />
+              <div class="our-story-card-animation">
+                <video
+                  class="our-story-card-video"
+                  playsinine
+                  muted
+                  loop
+                  autoplay
+                >
+                  <source
+                    src="video/assets_videos_netflix_ui.m4v"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
