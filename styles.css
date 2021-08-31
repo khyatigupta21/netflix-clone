@@ -238,7 +238,7 @@ img{
     justify-content: space-between;
 }
 .our-story-cards .our-story-card-text{
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 .our-story-cards .our-story-card-text .our-story-card-title {
     color:#fff;
@@ -297,5 +297,241 @@ video{
     object-fit: contain;
 }
 
+/* 2nd section of animation starts*/
+
+.our-story-card-animation-image{
+    margin:0 1em 0 0;
+    width:57px;
+    height:80px;
+
+}
+.our-story-card-animation-text{
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin:.3em 0;
+}
+
+.boxshot-container{
+  display: flex;
+  position: relative;
+  bottom: 140px;
+  left: 100px;
+  width: 300px;
+  height: 80px;
+  padding: 8px 12px;
+  background-color: #000;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid #404040;
+  z-index: 2;
+}
+
+.boxshot-image img{
+  width: 57px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.text1{
+    color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+}
+.text2{
+  color: #0071eb;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.loading-icon img {
+  width: 48px;
+  position: relative;
+  left: 60px;
+  top: 7px;
+}
+
+
+/* 2nd section of animation ends*/
+
+
+/* 3rd section of animation starts*/
+
+.our-story-card-animation-tv1{
+    bottom: 170px;
+    left: 90px;
+    position: absolute;
+}
+.our-story-card-video-tv1{
+    height: 100%;
+    width: 335px;
+}
+
+/* Frequently asked question starts*/
+
+.our-story-cards-faq-container{
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff; 
+    text-align: center;
+}
+
+.our-story-cards-faq{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.faq-heading{
+    font-size:3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+.faq-list{
+    display:flex;
+    flex-direction: column;
+    width:815px;
+    margin: 2em auto;
+    padding:0;
+}
+
+.faq-list-item{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #303030;
+    color:#fff;
+    font-size: 1.625rem;
+    font-weight: lighter;
+    margin:0 0 8px 0;
+}
+
+.faq-question{
+    padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    font-weight:500;
+    position: relative;
+    width: 815px;
+    height:80px;
+    border: 0;
+    display: block;
+    text-align: left;
+    background: #303030;
+    color:#fff;
+    font-size: 26px;
+    cursor:pointer;
+
+}
+
+.faq-svg {
+    height: 1em;
+    width: 1em;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    right:1em;
+    transform: rotate(45deg);
+
+}
+
+.faq-answer{
+    display: block;
+    text-align: left;
+    background:#303030;
+}
+
+.closed{
+    max-height:0;
+    overflow: hidden;
+    transition: max-height .25s cubic-bezier(.5,0,.1,1);
+}
+
+/* Frequently asked question ends*/
+
+/* Footer Starts */
+
+.footer-wrapper{
+    margin-top:0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #757575;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+.footer{
+  padding: 30px 0;
+  margin: 0 25%;  
+}
+
+.footer-top{
+    margin-bottom: 30px;
+    padding:0;
+    color: #757575;
+}
+
+.footer-top a{
+  text-decoration: none;
+  color: #757575;
+}
+
+.footer-list{
+    width:90%;
+    display: flex;
+    flex-wrap:wrap;
+    padding:15px 0 0 0;
+}
+.footer-list li{
+    list-style: none;
+}
+
+.footer-list-item{
+    box-sizing: border-box;
+    padding:0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+.footer-link{
+    text-decoration: none;
+    background-color: transparent;
+    color: #757575;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.icon {
+    position: relative;
+    z-index: 1;
+    color: #757575;
+    top: 2px;
+    left: 8px;
+}
+.faq-netflix-content{
+    position:relative;
+    z-index: 2;
+    align-items: center;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 0 auto;
+}
+.lang {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #757575;
+    background: #000;
+}
+.footer-country{
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+/* Footer Ends */
 
 
