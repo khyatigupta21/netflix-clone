@@ -1,9 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,regular,italic,500,700);
-
 body{
     padding:0;
     margin:0;
-    font-family:"Roboto";
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 .logo img{
     height: 45px;
@@ -18,7 +16,7 @@ body{
     background: url('./img/background.jpg');
     background-repeat: no-repeat;
     background-image: cover;
-    height:92vh;
+    /* height:92vh; */
     width: 100%;
     position: relative;
 }
@@ -128,6 +126,9 @@ body{
     font-size: 16px;
     text-decoration: none;
 }
+.sign_up a:hover {
+  text-decoration: underline;
+}
 .terms{
     color:#737373;
     font-size: 13px;
@@ -136,6 +137,26 @@ body{
     text-decoration: none;
     color:#0071eb;
 }
+.terms a:hover{
+    text-decoration: none;
+    color:#0071eb;
+}
+.learn {
+    font-family: inherit;
+    font-size: inherit;
+    color: #0071eb;
+    cursor: pointer;
+    padding: 0;
+}
+
+.learn:hover {
+  text-decoration: underline;
+}
+
+#hide-para {
+  visibility: hidden;
+}
+
 .input_wrap{
     position:relative;
     margin-bottom: 20px;   
@@ -151,8 +172,8 @@ body{
     border: none;
     border-radius: 5px;
     outline: none;
-    background-color: #444;
-    color: #ffffff;
+    background: #444;
+    color: #fff;
 }
 
 .floating-label {
@@ -174,34 +195,36 @@ input:valid ~ .floating-label {
   top: 7px;
 }
 
+
+
 /* Footer Starts */
 
 .footer-wrapper{
     margin-top:0;
     background-color: rgba(0, 0, 0, 0.85);
-    color: #757575;
+    color:#fff;
     padding-bottom: 10px;
     width:100%;
 }
 
 .footer{
   padding: 30px 0;
-  margin: 0 25%;  
+  margin: 0 20%;  
 }
 
 .footer-top{
     margin-bottom: 30px;
     padding:0;
-    color: #757575;
+    color: #fff;
 }
 
 .footer-top a{
   text-decoration: none;
-  color: #757575;
+  color: #fff;
 }
 
 .footer-list{
-    width:90%;
+    width:100%;
     display: flex;
     flex-wrap:wrap;
     padding:15px 0 0 0;
@@ -223,7 +246,7 @@ input:valid ~ .floating-label {
 .footer-link{
     text-decoration: none;
     background-color: transparent;
-    color: #757575;
+    color: #fff;
     cursor: pointer;
     font-size: 0.8rem;
 }
@@ -231,7 +254,7 @@ input:valid ~ .floating-label {
 .icon {
     position: relative;
     z-index: 1;
-    color: #757575;
+    color: #fff;
     top: 2px;
     left: 8px;
 }
@@ -240,7 +263,7 @@ input:valid ~ .floating-label {
     right: 20px;
     padding: 15px 30px;
     font-size: 13px;
-    color: #757575;
+    color: #fff;
     background: #000;
 }
 
